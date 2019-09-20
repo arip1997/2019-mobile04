@@ -11,37 +11,33 @@
 
         <Button
             android:id="@+id/button_explicit"
-            android:text="@string/explicit_intent"
+            android:onClick="handleExplicitIntent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:text="@string/explicit_intent" />
 
         <Button
             android:id="@+id/button_implicit"
-            android:text="@string/implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:text="@string/implicit_intent" />
 
         <Button
             android:id="@+id/button_bundle"
-            android:text="@string/android_bundle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:text="@string/android_bundle" />
 
         <Button
             android:id="@+id/button_parcelable"
-            android:text="@string/parcelable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:text="@string/parcelable" />
 
         <Button
             android:id="@+id/button_exit"
-            android:text="@string/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:text="@string/exit" />
 
 </LinearLayout>
