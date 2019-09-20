@@ -20,6 +20,7 @@
             android:id="@+id/button_implicit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleImplicitIntent"
             android:text="@string/implicit_intent" />
 
         <Button
@@ -36,6 +37,7 @@
 
         <Button
             android:id="@+id/button_exit"
+            android:onClick="handleExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exit" />
